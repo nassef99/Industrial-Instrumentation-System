@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'FDS5670'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ON Semiconductor", "FDS5670" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "512-FDS5670", "https://www.mouser.com/Search/Refine.aspx?Keyword=512-FDS5670", "FDS5670", "https://www.arrow.com/en/products/fds5670/on-semiconductor", "ON SEMICONDUCTOR - FDS5670 - MOSFET Transistor, N Channel, 10 A, 60 V, 0.014 ohm, 10 V, 2.4 V", "https://eagle.componentsearchengine.com/Datasheets/2/FDS5670.pdf", "1.75 mm"
+END_PART
+
+END.

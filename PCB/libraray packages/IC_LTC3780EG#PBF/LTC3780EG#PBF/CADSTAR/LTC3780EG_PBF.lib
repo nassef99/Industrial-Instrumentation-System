@@ -1,0 +1,18 @@
+.LTC3780EG_PBF :1 ;LINEAR TECHNOLOGY - LTC3780EG#PBF - DC/DC Controller, 4V to 36V, 1 Output, Synchronous Boost, Synchronous Buck, 440kHz, SSOP-24
+SOP65P780X200-24N
+*STM IC
+*NGS
+*PLB 1="PGOOD" 2="SS" 3="SENSE+" 4="SENSE-" 5="ITH" 6="VOSENSE" 7="SGND" 8="RUN" 9="FCB" 10="PLLFLTR" 11="PLLIN" 12="STBYMD" 13="BOOST2" 14="TG2" 15="SW2" 16="BG2" 17="PGND" 18="BG1" 19="INTVCC" 20="EXTVCC" 21="VIN" 22="SW1" 23="TG1" 24="BOOST1"
+*MXP 24
+*DFN LTC3780EG_PBF
+~!Manufacturer_Name (Linear Technology)
+~!Manufacturer_Part_Number (LTC3780EG#PBF)
+~!Mouser Part Number (584-LTC3780EG#PBF)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Analog-Devices-Linear-Technology/LTC3780EGPBF?qs=hVkxg5c3xu%252BOBZugU8NO3w%3D%3D)
+~!Arrow Part Number (LTC3780EG#PBF)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/ltc3780egpbf/linear-technology)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU1/DSASFU10009110.pdf)
+~!Height (2mm)
+~!3D_Model (LTC3780EG#PBF)
+LTC3780EG_PBF
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 24.1!U 23.1!U 22.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 15.1!U 14.1!U 13.1!U 

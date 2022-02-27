@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=C13 Old Footprint=FP-C0603C-CF-IPC_A New Footprint=CAPC0402X22N
+Change Component Footprint: Designator=C14 Old Footprint=FP-C0603C-CF-IPC_A New Footprint=CAPC2012X88N
+Change Component Comment: Designator=C13 Old Comment=C0603C104K5RACTU New Comment=GRM022R60J104ME15L
+Change Component Comment: Designator=C14 Old Comment=C0603C104K5RACTU New Comment=GRM022R60J104ME15L

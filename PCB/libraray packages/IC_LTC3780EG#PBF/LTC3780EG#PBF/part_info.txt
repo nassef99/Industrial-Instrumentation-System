@@ -1,0 +1,9 @@
+Manufacturer=Linear Technology
+PartNumber=LTC3780EG#PBF
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=24
+Version=1.1
+Released=2020-10-21 11:19:52
+Downloaded=2021-11-04 21:55:26
+3D=Y

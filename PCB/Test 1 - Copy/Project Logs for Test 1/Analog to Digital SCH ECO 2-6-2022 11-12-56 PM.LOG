@@ -1,0 +1,8 @@
+Change Component Designator: Old Designator=CA4 .1uF New Designator=CA3
+Change Component Designator: Old Designator=CA5 .1uF New Designator=CA4
+Change Component Designator: Old Designator=CA1 12pF New Designator=CA5
+Change Component Designator: Old Designator=CA2 12pF New Designator=CA6
+Change Component Designator: Old Designator=CA3 47uF New Designator=CA1
+Change Component Designator: Old Designator=CA6 47uF New Designator=CA2
+Change Component Designator: Old Designator=U7 New Designator=U5
+Change Component Designator: Old Designator=U New Designator=U6

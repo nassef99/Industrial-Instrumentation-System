@@ -1,0 +1,11 @@
+Change Component Footprint: Designator=Y1 Old Footprint=ABRA-ABS07_A_V New Footprint=ABRA-ABS07_A_V
+Change Component Footprint: Designator=Y2 Old Footprint=ABRA-ABS07_A_V New Footprint=ABRA-ABS07_A_V
+Change Pin Designator/Name:  Old Designator=U11-9 Old Name=P1.5/UCB0CLK New Designator =P1.6/UCB0SIMO/UCB0SDA New Name=10
+Change Pin Designator/Name:  Old Designator=U11-10 Old Name=P1.6/UCB0SIMO/UCB0SDA New Designator =P1.7/UCB0SOMI/UCB0SCL New Name=11
+Change Pin Designator/Name:  Old Designator=U11-11 Old Name=P1.7/UCB0SOMI/UCB0SCL New Designator =P1.5/UCB0CLK New Name=9
+Change Pin Designator/Name:  Old Designator=U11-20 Old Name=P2.4/PM_TA0.1 New Designator =P2.5/PM_TA0.2 New Name=21
+Change Pin Designator/Name:  Old Designator=U11-21 Old Name=P2.5/PM_TA0.2 New Designator =P2.4/PM_TA0.1 New Name=20
+Change Pin Designator/Name:  Old Designator=U11-22 Old Name=P2.6/PM_TA0.3 New Designator =P5.0/A5 New Name=64
+Change Pin Designator/Name:  Old Designator=U11-64 Old Name=P5.0/A5 New Designator =P5.2/A3 New Name=66
+Change Pin Designator/Name:  Old Designator=U11-66 Old Name=P5.2/A3 New Designator =P5.7/TA2.2/VREF-/VEREF-/C1.6 New Name=71
+Change Pin Designator/Name:  Old Designator=U11-71 Old Name=P5.7/TA2.2/VREF-/VEREF-/C1.6 New Designator =P2.6/PM_TA0.3 New Name=22

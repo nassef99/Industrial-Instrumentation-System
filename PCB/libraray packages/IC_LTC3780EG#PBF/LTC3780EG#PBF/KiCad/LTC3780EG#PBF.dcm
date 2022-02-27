@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC3780EG#PBF
+D LINEAR TECHNOLOGY - LTC3780EG#PBF - DC/DC Controller, 4V to 36V, 1 Output, Synchronous Boost, Synchronous Buck, 440kHz, SSOP-24
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU1/DSASFU10009110.pdf
+$ENDCMP
+#
+#End Doc Library

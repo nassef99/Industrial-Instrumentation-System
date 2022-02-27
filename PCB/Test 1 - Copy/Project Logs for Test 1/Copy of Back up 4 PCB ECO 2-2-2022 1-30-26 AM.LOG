@@ -1,0 +1,23 @@
+Added Pin To Net: NetName=GND Pin=U11-83
+Added Pin To Net: NetName=NetJEPD_11 Pin=JEPD-11
+Added Pin To Net: NetName=NetJEPD_11 Pin=U11-64
+Added Net: Name=NetJEPD_11
+Added Room: Name=U_3.3V_Regulator
+Added Room: Name=U_4-20mA1
+Added Room: Name=U_4-20mA2
+Added Room: Name=U_4-20mA3
+Added Room: Name=U_4-20mA4
+Added Room: Name=U_4-20mA5
+Added Room: Name=U_4-20mA6
+Added Room: Name=U_4-20mA_Inputs_(1-3)
+Added Room: Name=U_4-20mA_Inputs_(3-6)
+Added Room: Name=U_5V_DCDC_Conv
+Added Room: Name=U_Analog to Digital
+Added Room: Name=U_Button and more
+Added Room: Name=U_Dual_Flowmeter1
+Added Room: Name=U_Dual_Flowmeter2
+Added Room: Name=U_Dual_Flowmeter_Interface
+Added Room: Name=U_ESP32
+Added Room: Name=U_HFX LFX
+Added Room: Name=U_MCU
+Added Room: Name=U_PowerSystem

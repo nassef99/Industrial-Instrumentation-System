@@ -1,0 +1,11 @@
+Added Component: Designator=J31(SAMTEC_TSM-103-01-T-SV-P-TR)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Samtec"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "TSM-103-01-T-SV-P-TR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J31-01
+Added Pin To Net: NetName=ESP32_UART0.TX Pin=J31-02
+Added Pin To Net: NetName=ESP32_UART0.RX Pin=J31-03
+Added Member To Class: ClassName=ESP32 Member=Component J31 TSM-103-01-T-SV-P-TR

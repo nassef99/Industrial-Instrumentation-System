@@ -1,0 +1,172 @@
+Removed Pin From Net: NetName=TMS_SWDIO Pin=J7-01
+Removed Pin From Net: NetName=RST Pin=J7-09
+Removed Pin From Net: NetName=3V3 Pin=J7-11
+Removed Pin From Net: NetName=GND Pin=J7-13
+Removed Pin From Net: NetName=GND Pin=J7-15
+Removed Pin From Net: NetName=GND Pin=J7-17
+Removed Pin From Net: NetName=GND Pin=J7-19
+Removed Pin From Net: NetName=3V3 Pin=J7-50
+Removed Pin From Net: NetName=3V3 Pin=J7-52
+Removed Member From Class: ClassName=U_Button and more Member=J7
+Change Component Designator: OldDesignator=  _U_4-20mA1 NewDesignator=  _U_4-20mA6_U_4-20mA1
+Change Component Designator: OldDesignator=  _U_4-20mA2 NewDesignator=  _U_4-20mA6_U_4-20mA2
+Change Component Designator: OldDesignator=  _U_4-20mA3 NewDesignator=  _U_4-20mA6_U_4-20mA3
+Change Component Designator: OldDesignator=  _U_4-20mA4 NewDesignator=  _U_4-20mA6_U_4-20mA4
+Change Component Designator: OldDesignator=  _U_4-20mA5 NewDesignator=  _U_4-20mA6_U_4-20mA5
+Change Component Designator: OldDesignator=  _U_4-20mA6 NewDesignator=  _U_4-20mA6_U_4-20mA6
+Added Component: Designator=JEPD(SAMTEC_TFM-120-02-L-D)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Samtec"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "TFM-120-02-L-D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=JEXT(SAMTEC_TFM-120-02-L-D)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Samtec"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "TFM-120-02-L-D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=TMS_SWDIO Pin=JEXT-01
+Added Pin To Net: NetName=3V3 Pin=JEXT-11
+Added Pin To Net: NetName=GND Pin=JEXT-13
+Added Pin To Net: NetName=GND Pin=JEXT-15
+Added Pin To Net: NetName=GND Pin=JEXT-17
+Added Pin To Net: NetName=GND Pin=JEXT-19
+Added Pin To Net: NetName=3V3 Pin=JEXT-31
+Added Pin To Net: NetName=3V3 Pin=JEXT-33
+Added Pin To Net: NetName=GND Pin=U11-83
+Change Net Name : Old Net Name=Net  _U_4-20mA1_1 New Net Name=Net  _U_4-20mA6_U_4-20mA1_1
+Change Net Name : Old Net Name=Net  _U_4-20mA1_2 New Net Name=Net  _U_4-20mA6_U_4-20mA1_2
+Change Net Name : Old Net Name=Net  _U_4-20mA2_1 New Net Name=Net  _U_4-20mA6_U_4-20mA2_1
+Change Net Name : Old Net Name=Net  _U_4-20mA2_2 New Net Name=Net  _U_4-20mA6_U_4-20mA2_2
+Change Net Name : Old Net Name=Net  _U_4-20mA3_1 New Net Name=Net  _U_4-20mA6_U_4-20mA3_1
+Change Net Name : Old Net Name=Net  _U_4-20mA3_2 New Net Name=Net  _U_4-20mA6_U_4-20mA3_2
+Change Net Name : Old Net Name=Net  _U_4-20mA4_1 New Net Name=Net  _U_4-20mA6_U_4-20mA4_1
+Change Net Name : Old Net Name=Net  _U_4-20mA4_2 New Net Name=Net  _U_4-20mA6_U_4-20mA4_2
+Change Net Name : Old Net Name=Net  _U_4-20mA5_1 New Net Name=Net  _U_4-20mA6_U_4-20mA5_1
+Change Net Name : Old Net Name=Net  _U_4-20mA5_2 New Net Name=Net  _U_4-20mA6_U_4-20mA5_2
+Change Net Name : Old Net Name=Net  _U_4-20mA6_1 New Net Name=Net  _U_4-20mA6_U_4-20mA6_1
+Change Net Name : Old Net Name=Net  _U_4-20mA6_2 New Net Name=Net  _U_4-20mA6_U_4-20mA6_2
+Added Pin To Net: NetName=NetJEPD_19 Pin=JEPD-19
+Added Pin To Net: NetName=NetJEPD_19 Pin=U11-71
+Added Net: Name=NetJEPD_19
+Added Pin To Net: NetName=NetJEPD_21 Pin=JEPD-21
+Added Pin To Net: NetName=NetJEPD_21 Pin=U11-66
+Added Net: Name=NetJEPD_21
+Added Pin To Net: NetName=NetJEPD_23 Pin=JEPD-23
+Added Pin To Net: NetName=NetJEPD_23 Pin=U11-64
+Added Net: Name=NetJEPD_23
+Added Pin To Net: NetName=NetJEPD_25 Pin=JEPD-25
+Added Pin To Net: NetName=NetJEPD_25 Pin=U11-20
+Added Net: Name=NetJEPD_25
+Added Pin To Net: NetName=NetJEPD_27 Pin=JEPD-27
+Added Pin To Net: NetName=NetJEPD_27 Pin=U11-21
+Added Net: Name=NetJEPD_27
+Added Pin To Net: NetName=NetJEPD_29 Pin=JEPD-29
+Added Pin To Net: NetName=NetJEPD_29 Pin=U11-22
+Added Net: Name=NetJEPD_29
+Added Pin To Net: NetName=NetJEPD_31 Pin=JEPD-31
+Added Pin To Net: NetName=NetJEPD_31 Pin=U11-32
+Added Net: Name=NetJEPD_31
+Added Pin To Net: NetName=NetJEPD_33 Pin=JEPD-33
+Added Pin To Net: NetName=NetJEPD_33 Pin=U11-9
+Added Net: Name=NetJEPD_33
+Added Pin To Net: NetName=NetJEPD_35 Pin=JEPD-35
+Added Pin To Net: NetName=NetJEPD_35 Pin=U11-10
+Added Net: Name=NetJEPD_35
+Added Pin To Net: NetName=NetJEPD_37 Pin=JEPD-37
+Added Pin To Net: NetName=NetJEPD_37 Pin=U11-11
+Added Net: Name=NetJEPD_37
+Added Pin To Net: NetName=NetJEXT_02 Pin=JEXT-02
+Added Pin To Net: NetName=NetJEXT_02 Pin=U11-76
+Added Net: Name=NetJEXT_02
+Added Pin To Net: NetName=NetJEXT_03 Pin=JEXT-03
+Added Pin To Net: NetName=NetJEXT_03 Pin=U11-95
+Added Net: Name=NetJEXT_03
+Added Pin To Net: NetName=NetJEXT_04 Pin=JEXT-04
+Added Pin To Net: NetName=NetJEXT_04 Pin=U11-77
+Added Net: Name=NetJEXT_04
+Added Pin To Net: NetName=NetJEXT_05 Pin=JEXT-05
+Added Pin To Net: NetName=NetJEXT_05 Pin=U11-93
+Added Net: Name=NetJEXT_05
+Added Pin To Net: NetName=NetJEXT_06 Pin=JEXT-06
+Added Pin To Net: NetName=NetJEXT_06 Pin=U11-88
+Added Net: Name=NetJEXT_06
+Added Pin To Net: NetName=NetJEXT_07 Pin=JEXT-07
+Added Pin To Net: NetName=NetJEXT_07 Pin=U11-92
+Added Net: Name=NetJEXT_07
+Added Pin To Net: NetName=NetJEXT_12 Pin=JEXT-12
+Added Pin To Net: NetName=NetJEXT_12 Pin=U11-27
+Added Net: Name=NetJEXT_12
+Added Pin To Net: NetName=NetJEXT_14 Pin=JEXT-14
+Added Pin To Net: NetName=NetJEXT_14 Pin=U11-30
+Added Net: Name=NetJEXT_14
+Added Pin To Net: NetName=NetJEXT_16 Pin=JEXT-16
+Added Pin To Net: NetName=NetJEXT_16 Pin=U11-46
+Added Net: Name=NetJEXT_16
+Added Pin To Net: NetName=NetJEXT_20 Pin=JEXT-20
+Added Pin To Net: NetName=NetJEXT_20 Pin=U11-48
+Added Net: Name=NetJEXT_20
+Added Pin To Net: NetName=NetJEXT_22 Pin=JEXT-22
+Added Pin To Net: NetName=NetJEXT_22 Pin=U11-49
+Added Net: Name=NetJEXT_22
+Added Pin To Net: NetName=NetJEXT_24 Pin=JEXT-24
+Added Pin To Net: NetName=NetJEXT_24 Pin=U11-50
+Added Net: Name=NetJEXT_24
+Added Pin To Net: NetName=NetJEXT_26 Pin=JEXT-26
+Added Pin To Net: NetName=NetJEXT_26 Pin=U11-51
+Added Net: Name=NetJEXT_26
+Added Pin To Net: NetName=NetJEXT_28 Pin=JEXT-28
+Added Pin To Net: NetName=NetJEXT_28 Pin=U11-52
+Added Net: Name=NetJEXT_28
+Added Pin To Net: NetName=NetJEXT_30 Pin=JEXT-30
+Added Pin To Net: NetName=NetJEXT_30 Pin=U11-53
+Added Net: Name=NetJEXT_30
+Added Pin To Net: NetName=NetJEXT_32 Pin=JEXT-32
+Added Pin To Net: NetName=NetJEXT_32 Pin=U11-97
+Added Net: Name=NetJEXT_32
+Added Pin To Net: NetName=NetJEXT_36 Pin=JEXT-36
+Added Pin To Net: NetName=NetJEXT_36 Pin=U11-100
+Added Net: Name=NetJEXT_36
+Added Pin To Net: NetName=NetJEXT_37 Pin=JEXT-37
+Added Pin To Net: NetName=NetJEXT_37 Pin=U11-25
+Added Net: Name=NetJEXT_37
+Added Pin To Net: NetName=NetJEXT_38 Pin=JEXT-38
+Added Pin To Net: NetName=NetJEXT_38 Pin=U11-1
+Added Net: Name=NetJEXT_38
+Added Pin To Net: NetName=NetJEXT_39 Pin=JEXT-39
+Added Pin To Net: NetName=NetJEXT_39 Pin=U11-24
+Added Net: Name=NetJEXT_39
+Added Pin To Net: NetName=NetJEXT_40 Pin=JEXT-40
+Added Pin To Net: NetName=NetJEXT_40 Pin=U11-2
+Added Net: Name=NetJEXT_40
+Added Member To Class: ClassName=U_4-20mA1 Member=Component   _U_4-20mA6_U_4-20mA1 (  _U_4-20mA6) 1KSMB39CA
+Added Member To Class: ClassName=U_4-20mA2 Member=Component   _U_4-20mA6_U_4-20mA2 (  _U_4-20mA6) 1KSMB39CA
+Added Member To Class: ClassName=U_4-20mA3 Member=Component   _U_4-20mA6_U_4-20mA3 (  _U_4-20mA6) 1KSMB39CA
+Added Member To Class: ClassName=U_4-20mA4 Member=Component   _U_4-20mA6_U_4-20mA4 (  _U_4-20mA6) 1KSMB39CA
+Added Member To Class: ClassName=U_4-20mA5 Member=Component   _U_4-20mA6_U_4-20mA5 (  _U_4-20mA6) 1KSMB39CA
+Added Member To Class: ClassName=U_4-20mA6 Member=Component   _U_4-20mA6_U_4-20mA6 (  _U_4-20mA6) 1KSMB39CA
+Added Member To Class: ClassName=U_Button and more Member=Component JEPD TFM-120-02-L-D
+Added Member To Class: ClassName=U_Button and more Member=Component JEXT TFM-120-02-L-D
+Added Member To Class: ClassName=U_Dual_Flowmeter1 Member=Component R22_U_Dual_Flowmeter1 (R22) RC0402FR-073K3P
+Added Room: Name=U_3.3V_Regulator
+Added Room: Name=U_4-20mA1
+Added Room: Name=U_4-20mA2
+Added Room: Name=U_4-20mA3
+Added Room: Name=U_4-20mA4
+Added Room: Name=U_4-20mA5
+Added Room: Name=U_4-20mA6
+Added Room: Name=U_4-20mA_Inputs_(1-3)
+Added Room: Name=U_4-20mA_Inputs_(3-6)
+Added Room: Name=U_5V_DCDC_Conv
+Added Room: Name=U_Analog to Digital
+Added Room: Name=U_Button and more
+Added Room: Name=U_Dual_Flowmeter1
+Added Room: Name=U_Dual_Flowmeter2
+Added Room: Name=U_Dual_Flowmeter_Interface
+Added Room: Name=U_ESP32
+Added Room: Name=U_HFX LFX
+Added Room: Name=U_MCU
+Added Room: Name=U_PowerSystem

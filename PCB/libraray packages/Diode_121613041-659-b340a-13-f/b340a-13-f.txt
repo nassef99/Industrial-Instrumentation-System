@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"33-06022020-084595";"";
+"REFERENCE";"B340A-13-F";"";
+"TraceParts.PartTitle";"Diode, Diodes Moulded - B340A-13-F, B360A-13-F";"";
+"TraceParts.InstanceId";"33-06022020-0845951IXF3CYJASUQ930EORJY27W64";"";
+"DESIGN";"Diode, Diodes Moulded - B340A-13-F";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";
+"SUPPLIER";"Diodes Inc.";"";
+"TraceParts.PartVersion";"1.1.5";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.ClassPath";"DIODES_INCORPORATED:33-06022020-084595";"";

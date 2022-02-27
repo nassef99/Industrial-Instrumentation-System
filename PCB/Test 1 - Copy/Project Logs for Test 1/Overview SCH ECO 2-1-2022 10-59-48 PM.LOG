@@ -1,0 +1,9 @@
+Remove Pin=JEXT-09 From Net=RST
+Change Component Footprint: Designator=Y1 Old Footprint=ABRA-ABS07_A_V New Footprint=ABRA-ABS07_A_V
+Change Component Footprint: Designator=Y2 Old Footprint=ABRA-ABS07_A_V New Footprint=ABRA-ABS07_A_V
+Change Component Designator: OldDesignator= NewDesignator=  _U_4-20mA1
+Change Component Designator: OldDesignator=  _U_4-20mA1 NewDesignator=  _U_4-20mA2
+Change Component Designator: OldDesignator=  _U_4-20mA2 NewDesignator=  _U_4-20mA3
+Change Component Designator: OldDesignator=  _U_4-20mA3 NewDesignator=  _U_4-20mA4
+Change Component Designator: OldDesignator=  _U_4-20mA4 NewDesignator=  _U_4-20mA5
+Change Component Designator: OldDesignator=  _U_4-20mA5 NewDesignator=  _U_4-20mA6

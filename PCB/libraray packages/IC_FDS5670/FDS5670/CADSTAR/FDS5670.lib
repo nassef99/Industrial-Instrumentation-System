@@ -1,0 +1,18 @@
+.FDS5670 :1 ;ON SEMICONDUCTOR - FDS5670 - MOSFET Transistor, N Channel, 10 A, 60 V, 0.014 ohm, 10 V, 2.4 V
+SOIC127P600X175-8N
+*STM Q
+*NGS
+*PLB 1="S_1" 2="S_2" 3="S_3" 4="G" 5="D_1" 6="D_2" 7="D_3" 8="D_4"
+*MXP 8
+*DFN FDS5670
+~!Manufacturer_Name (ON Semiconductor)
+~!Manufacturer_Part_Number (FDS5670)
+~!Mouser Part Number (512-FDS5670)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=512-FDS5670)
+~!Arrow Part Number (FDS5670)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/fds5670/on-semiconductor)
+~!Link Datasheet (https://eagle.componentsearchengine.com/Datasheets/2/FDS5670.pdf)
+~!Height (1.75mm)
+~!3D_Model (FDS5670)
+FDS5670
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

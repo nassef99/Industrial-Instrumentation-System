@@ -1,0 +1,43 @@
+Change Physical Footprint: Designator=  _U_4-20mA6_U_4-20mA1 Old Footprint=1KSMBSeries_LTF New Footprint=1KSMBSeries_LTF
+Change Physical Footprint: Designator=  _U_4-20mA6_U_4-20mA2 Old Footprint=1KSMBSeries_LTF New Footprint=1KSMBSeries_LTF
+Change Physical Footprint: Designator=  _U_4-20mA6_U_4-20mA3 Old Footprint=1KSMBSeries_LTF New Footprint=1KSMBSeries_LTF
+Change Physical Footprint: Designator=  _U_4-20mA6_U_4-20mA4 Old Footprint=1KSMBSeries_LTF New Footprint=1KSMBSeries_LTF
+Change Physical Footprint: Designator=  _U_4-20mA6_U_4-20mA5 Old Footprint=1KSMBSeries_LTF New Footprint=1KSMBSeries_LTF
+Change Physical Footprint: Designator=  _U_4-20mA6_U_4-20mA6 Old Footprint=1KSMBSeries_LTF New Footprint=1KSMBSeries_LTF
+Change Physical Footprint: Designator=C34_U_Dual_Flowmeter1 Old Footprint=CAPC2012X152N New Footprint=CAPC2012X152N
+Change Physical Footprint: Designator=C36_U_Dual_Flowmeter1 Old Footprint=CAPC2012X152N New Footprint=CAPC2012X152N
+Change Physical Footprint: Designator=CA5 .1uF Old Footprint=FP-C0805C-DN-MFG New Footprint=FP-C0805C-DN-MFG
+Change Physical Footprint: Designator=CA6 47uF Old Footprint=FP-T491C476K016AT-MFG New Footprint=FP-T491C476K016AT-MFG
+Change Physical Footprint: Designator=CR6 Old Footprint=1KSMBSeries_LTF New Footprint=1KSMBSeries_LTF
+Change Physical Footprint: Designator=CU9 Old Footprint=FP-CGA3E-0_3-0_1-IPC_A New Footprint=FP-CGA3E-0_3-0_1-IPC_A
+Change Physical Footprint: Designator=L VSW Old Footprint=FP-LQH32CH_23-MFG New Footprint=FP-LQH32CH_23-MFG
+Change Physical Footprint: Designator=R3 Old Footprint=FP-RP732B-MFG New Footprint=FP-RP732B-MFG
+Change Physical Footprint: Designator=R4 Old Footprint=FP-RP732B-MFG New Footprint=FP-RP732B-MFG
+Change Physical Footprint: Designator=R21_U_Dual_Flowmeter1 Old Footprint=RESC3116X65N New Footprint=RESC3116X65N
+Change Physical Footprint: Designator=R23_U_Dual_Flowmeter1 Old Footprint=RESC5025X70N New Footprint=RESC5025X70N
+Change Physical Footprint: Designator=R24_U_Dual_Flowmeter1 Old Footprint=RES_ERJS03F1004V New Footprint=RES_ERJS03F1004V
+Change Physical Footprint: Designator=R25_U_Dual_Flowmeter1 Old Footprint=RESC1608X55N New Footprint=RESC1608X55N
+Change Physical Footprint: Designator=R25_U_Dual_Flowmeter2 Old Footprint=RESC1608X55N New Footprint=RESC1608X55N
+Change Physical Footprint: Designator=R26_U_Dual_Flowmeter1 Old Footprint=RESC1608X55N New Footprint=RESC1608X55N
+Change Physical Footprint: Designator=R26_U_Dual_Flowmeter2 Old Footprint=RESC1608X55N New Footprint=RESC1608X55N
+Change Physical Footprint: Designator=R27_U_Dual_Flowmeter1 Old Footprint=RESC1608X55N New Footprint=RESC1608X55N
+Change Physical Footprint: Designator=R27_U_Dual_Flowmeter2 Old Footprint=RESC1608X55N New Footprint=RESC1608X55N
+Change Physical Footprint: Designator=R28_U_Dual_Flowmeter1 Old Footprint=RESC1608X55N New Footprint=RESC1608X55N
+Change Physical Footprint: Designator=R28_U_Dual_Flowmeter2 Old Footprint=RESC1608X55N New Footprint=RESC1608X55N
+Change Physical Footprint: Designator=R29_U_Dual_Flowmeter1 Old Footprint=RESC1608X55N New Footprint=RESC1608X55N
+Change Physical Footprint: Designator=R29_U_Dual_Flowmeter2 Old Footprint=RESC1608X55N New Footprint=RESC1608X55N
+Change Physical Footprint: Designator=R30_U_Dual_Flowmeter1 Old Footprint=RESC1608X55N New Footprint=RESC1608X55N
+Change Physical Footprint: Designator=R30_U_Dual_Flowmeter2 Old Footprint=RESC1608X55N New Footprint=RESC1608X55N
+Change Physical Footprint: Designator=R32_U_Dual_Flowmeter2 Old Footprint=RES_ERJS03F1004V New Footprint=RES_ERJS03F1004V
+Change Physical Footprint: Designator=SW13 Old Footprint=FP-ESE-20C421-MFG New Footprint=FP-ESE-20C421-MFG
+Change Physical Footprint: Designator=U4 Old Footprint=TO_0S-M3/4W_VIS New Footprint=TO_0S-M3/4W_VIS
+Change Physical Footprint: Designator=U5 Old Footprint=TO_0S-M3/4W_VIS New Footprint=TO_0S-M3/4W_VIS
+Change Physical Footprint: Designator=U8_U_4-20mA1 Old Footprint=SO-8_S New Footprint=SO-8_S
+Change Physical Footprint: Designator=U8_U_4-20mA2 Old Footprint=SO-8_S New Footprint=SO-8_S
+Change Physical Footprint: Designator=U8_U_4-20mA3 Old Footprint=SO-8_S New Footprint=SO-8_S
+Change Physical Footprint: Designator=U8_U_4-20mA4 Old Footprint=SO-8_S New Footprint=SO-8_S
+Change Physical Footprint: Designator=U8_U_4-20mA5 Old Footprint=SO-8_S New Footprint=SO-8_S
+Change Physical Footprint: Designator=U8_U_4-20mA6 Old Footprint=SO-8_S New Footprint=SO-8_S
+Change Physical Footprint: Designator=U9_U_Dual_Flowmeter1 Old Footprint=SO-8_S New Footprint=SO-8_S
+Change Physical Footprint: Designator=U9_U_Dual_Flowmeter2 Old Footprint=SO-8_S New Footprint=SO-8_S
+Change Physical Footprint: Designator=U11 Old Footprint=QFP50P1600X1600X160-100N New Footprint=QFP50P1600X1600X160-100N

@@ -1,0 +1,33 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [IIS.PrjPcb]
+   Generated File[IIS_PCB.GTO]
+   Generated File[IIS_PCB.GTP]
+   Generated File[IIS_PCB.GTS]
+   Generated File[IIS_PCB.GTL]
+   Generated File[IIS_PCB.GP1]
+   Generated File[IIS_PCB.G1]
+   Generated File[IIS_PCB.G2]
+   Generated File[IIS_PCB.GP2]
+   Generated File[IIS_PCB.GBL]
+   Generated File[IIS_PCB.GBS]
+   Generated File[IIS_PCB.GM1]
+   Generated File[IIS_PCB.GM5]
+   Generated File[IIS_PCB.GM7]
+   Generated File[IIS_PCB.GM13]
+   Generated File[IIS_PCB.GM15]
+   Generated File[IIS_PCB.GM16]
+   Generated File[IIS_PCB.GKO]
+   Generated File[IIS_PCB.GPT]
+   Generated File[IIS_PCB.GPB]
+   Generated File[IIS_PCB.GD1]
+   Generated File[IIS_PCB.GG1]
+   Generated File[IIS_PCB.RUL]
+   Generated File[IIS_PCB.EXTREP]
+   Generated File[IIS_PCB.REP]
+
+
+Files Generated   : 24
+Documents Printed : 0
+
+Finished Output Generation At 7:32:02 PM On 2/25/2022

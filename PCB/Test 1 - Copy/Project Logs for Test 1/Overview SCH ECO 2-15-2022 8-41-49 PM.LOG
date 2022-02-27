@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=C10 Old Footprint=FP-UUR1C221MCL6GS-MFG New Footprint=PNSC-EEE-1HA221P_L
+Change Component Comment: Designator=C10 Old Comment=UUR1C221MCL6GS New Comment=EEE-1HA221P
+Change Pin Designator/Name:  Old Designator=C10-2 Old Name=A New Designator =C New Name=1
+Change Pin Designator/Name:  Old Designator=C10-1 Old Name=C New Designator =A New Name=2

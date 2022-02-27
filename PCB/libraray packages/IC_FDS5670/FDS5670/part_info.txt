@@ -1,0 +1,9 @@
+Manufacturer=ON Semiconductor
+PartNumber=FDS5670
+PartCategory=MOSFET (N-Channel)
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.2
+Released=2020-02-14 10:15:14
+Downloaded=2021-11-05 00:42:59
+3D=Y

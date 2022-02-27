@@ -1,0 +1,31 @@
+Added Pin To Net: NetName=GND Pin=U11-83
+Added Pin To Net: NetName=NetJEPD_15 Pin=JEPD-15
+Added Pin To Net: NetName=NetJEPD_15 Pin=U11-22
+Added Net: Name=NetJEPD_15
+Added Pin To Net: NetName=NetJEPD_17 Pin=JEPD-17
+Added Pin To Net: NetName=NetJEPD_17 Pin=U11-71
+Added Net: Name=NetJEPD_17
+Added Pin To Net: NetName=NetJEPD_19 Pin=JEPD-19
+Added Pin To Net: NetName=NetJEPD_19 Pin=U11-66
+Added Net: Name=NetJEPD_19
+Added Pin To Net: NetName=NetJEPD_21 Pin=JEPD-21
+Added Pin To Net: NetName=NetJEPD_21 Pin=U11-64
+Added Net: Name=NetJEPD_21
+Added Pin To Net: NetName=NetJEPD_23 Pin=JEPD-23
+Added Pin To Net: NetName=NetJEPD_23 Pin=U11-20
+Added Net: Name=NetJEPD_23
+Added Pin To Net: NetName=NetJEPD_25 Pin=JEPD-25
+Added Pin To Net: NetName=NetJEPD_25 Pin=U11-21
+Added Net: Name=NetJEPD_25
+Added Pin To Net: NetName=NetJEPD_29 Pin=JEPD-29
+Added Pin To Net: NetName=NetJEPD_29 Pin=U11-11
+Added Net: Name=NetJEPD_29
+Added Pin To Net: NetName=NetJEPD_31 Pin=JEPD-31
+Added Pin To Net: NetName=NetJEPD_31 Pin=U11-10
+Added Net: Name=NetJEPD_31
+Added Pin To Net: NetName=NetJEPD_33 Pin=JEPD-33
+Added Pin To Net: NetName=NetJEPD_33 Pin=U11-9
+Added Net: Name=NetJEPD_33
+Added Pin To Net: NetName=NetJEPD_35 Pin=JEPD-35
+Added Pin To Net: NetName=NetJEPD_35 Pin=U11-32
+Added Net: Name=NetJEPD_35
