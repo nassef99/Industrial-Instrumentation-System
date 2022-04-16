@@ -1,3 +1,34 @@
+/*
+ * SimplePgSQL.c - Lightweight PostgreSQL connector for Arduino
+ * Copyright (C) Bohdan R. Rau 2016 <ethanak@polip.com>
+ *
+ * SimplePgSQL is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 2.1 of the License, or (at your option) any later version.
+ *
+ * SimplePgSQL is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with SimplePgSQL.  If not, write to:
+ * 	The Free Software Foundation, Inc.,
+ * 	51 Franklin Street, Fifth Floor
+ * 	Boston, MA  02110-1301, USA.
+ */
+
+/*
+ * Demo program for SimplePgSQL library
+ * Simple PostgreSQL console
+ * Accepts:
+ * - PostgreSQL simple queries
+ * - \d - displays table list
+ * - \d tablename - list table columns
+ * - exit - closes connection
+ */
+
 #ifdef ESP8266
 #include <ESP8266WiFi.h>
 #elif defined(ESP32)
@@ -14,7 +45,7 @@
 #endif
 
 #endif
-#include <C:\Users\rossp\Documents\Arduino\esp32_ver2\SimplePgSQL.h>
+#include <C:\Users\rossp\Documents\Arduino\SimplePgSQL-master\examples\PgConsole\SimplePgSQL.h>
 
 
 
@@ -42,7 +73,13 @@ PGconnection conn(&client, 0, 1024, buffer);
 
 void setup(void)
 {
-    Serial.begin(115200);
+    Serial.begin(
+#ifdef __AVR__
+    9600
+#else
+    115200
+#endif
+    );
 #ifdef USE_ARDUINO_ETHERNET
     Ethernet.begin(mac, ip);
 #else
