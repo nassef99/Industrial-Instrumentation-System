@@ -14,9 +14,9 @@
  *
  * You should have received a copy of the GNU Lesser General Public
  * License along with SimplePgSQL.  If not, write to:
- * 	The Free Software Foundation, Inc.,
- * 	51 Franklin Street, Fifth Floor
- * 	Boston, MA  02110-1301, USA.
+ *   The Free Software Foundation, Inc.,
+ *  51 Franklin Street, Fifth Floor
+ *  Boston, MA  02110-1301, USA.
  */
 
 /*
@@ -56,7 +56,7 @@ const char pass[] = "2s83mrbr";      // your network password
 
 const char user[] = "ubuntu";       // your database user
 const char password[] = "password";   // your database password
-const char dbname[] = "IIS_Database";         // your database name
+const char dbname[] = "test_database";         // your database name
 
 #if defined(ESP8266) || defined(USE_ARDUINO_WIFI) || defined(ESP32)
 int WiFiStatus;
