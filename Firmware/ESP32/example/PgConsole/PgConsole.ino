@@ -37,6 +37,8 @@
 
 // Uncomment line below if you use WiFi shield instead of Ethernet
 #define USE_ARDUINO WIFI 1
+#define RXD2 16
+#define TXD2 17
 
 #ifdef USE_ARDUINO_WIFI
 #include <WIFI.h>
@@ -45,14 +47,14 @@
 #endif
 
 #endif
-#include <C:\Users\rossp\Documents\Arduino\SimplePgSQL-master\examples\PgConsole\SimplePgSQL.h>
+#include <C:\Users\Dillon Petersen\Documents\Arduino\PgConsole\SimplePgSQL.h>
 
 
 
 IPAddress PGIP(18,223,247,30);        // your PostgreSQL server IP
 
-const char ssid[] = "Whitesky-616";      //  your network SSID (name)
-const char pass[] = "2s83mrbr";      // your network password
+const char ssid[] = "Verizon-SM-G996U-4ca9";      //  your network SSID (name)
+const char pass[] = "ropi867#";      // your network password
 
 const char user[] = "ubuntu";       // your database user
 const char password[] = "password";   // your database password
@@ -80,6 +82,7 @@ void setup(void)
     115200
 #endif
     );
+    Serial2.begin(115200, SERIAL_8N1, 16, 17);
 #ifdef USE_ARDUINO_ETHERNET
     Ethernet.begin(mac, ip);
 #else
@@ -257,7 +260,9 @@ void loop()
     checkConnection();
     if (WiFiStatus == WL_CONNECTED) {
 #endif
-        doPg();
+        Serial.println("Reading...");
+        Serial.println(Serial2.readString());
+        //doPg();
 #ifndef USE_ARDUINO_ETHERNET
     }
 #endif
