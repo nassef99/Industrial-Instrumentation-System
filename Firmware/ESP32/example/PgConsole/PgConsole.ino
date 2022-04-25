@@ -47,7 +47,7 @@
 #endif
 
 #endif
-#include <C:\Users\Dillon Petersen\Documents\Arduino\PgConsole\SimplePgSQL.h>
+#include <C:\Users\rossp\Documents\GitHub\Industrial_Instrumentation_System\Firmware\ESP32\example\PgConsole\SimplePgSQL.h>
 
 
 
@@ -59,6 +59,12 @@ const char pass[] = "ropi867#";      // your network password
 const char user[] = "ubuntu";       // your database user
 const char password[] = "password";   // your database password
 const char dbname[] = "test_database";         // your database name
+
+const byte bufferSize = 32;
+char serialBuffer[bufferSize];
+byte bufferIndex = 0;
+char EOL = '\n';
+bool hasData = false;
 
 #if defined(ESP8266) || defined(USE_ARDUINO_WIFI) || defined(ESP32)
 int WiFiStatus;
@@ -253,6 +259,29 @@ error:
     }
 }
 
+void listenForData()
+{
+  char recievedData;
+
+  while(Serial2.available() > 0 && !hasData){
+    recievedData = Serial2.read();
+
+    if (recievedData != EOL){
+      serialBuffer[bufferIndex++] = recievedData;
+      if (bufferIndex >= bufferSize){
+        bufferIndex = bufferSize - 1;
+      }
+    }
+    else
+    {
+      serialBuffer[bufferIndex] = '\0'; //terminate string
+      bufferIndex = 0;
+      hasData = true;
+      Serial.println(serialBuffer);
+    }
+  }
+}
+
 
 void loop()
 {
@@ -260,9 +289,17 @@ void loop()
     checkConnection();
     if (WiFiStatus == WL_CONNECTED) {
 #endif
-        Serial.println("Reading...");
-        Serial.println(Serial2.readString());
+        //Serial.println("Reading...");
+        //Serial.println(Serial2.readString());
         //doPg();
+
+        listenForData();
+        if (hasData){
+            //doPg();                  
+        }
+        Serial2.println("Sending data!"); //also Serial2.write()
+        
+        
 #ifndef USE_ARDUINO_ETHERNET
     }
 #endif
