@@ -47,20 +47,20 @@
 #endif
 
 #endif
-#include <C:\Users\rossp\Documents\GitHub\Industrial_Instrumentation_System\Firmware\ESP32\example\PgConsole\SimplePgSQL.h>
+#include <C:\Users\Nassef\Documents\ECEN_403_404\Industrial_Instrumentation_System\Firmware\ESP32\example\PgConsole\SimplePgSQL.h>
 
 
 
 IPAddress PGIP(18,223,247,30);        // your PostgreSQL server IP
 
-const char ssid[] = "Verizon-SM-G996U-4ca9";      //  your network SSID (name)
-const char pass[] = "ropi867#";      // your network password
+const char ssid[] = "Miko Circle CS";      //  your network SSID (name)
+const char pass[] = "sunnysheep002";      // your network password
 
 const char user[] = "ubuntu";       // your database user
 const char password[] = "password";   // your database password
 const char dbname[] = "test_database";         // your database name
 
-const byte bufferSize = 32;
+const byte bufferSize = 128;
 char serialBuffer[bufferSize];
 byte bufferIndex = 0;
 char EOL = '\n';
@@ -268,16 +268,20 @@ void listenForData()
 
     if (recievedData != EOL){
       serialBuffer[bufferIndex++] = recievedData;
+      Serial.println("test3");
       if (bufferIndex >= bufferSize){
         bufferIndex = bufferSize - 1;
+        Serial.println(serialBuffer);
+        Serial.println("test4");
       }
     }
     else
     {
       serialBuffer[bufferIndex] = '\0'; //terminate string
       bufferIndex = 0;
-      hasData = true;
+      //hasData = true;
       Serial.println(serialBuffer);
+      Serial.println("test5");
     }
   }
 }
@@ -294,14 +298,23 @@ void loop()
         //doPg();
 
         listenForData();
+//        while (Serial2.available()){
+//          char CharSerialRX = (char)Serial2.read();
+//          Serial.print(CharSerialRX);
+//        }
+
         if (hasData){
             //doPg();                  
         }
-        Serial2.println("Sending data!"); //also Serial2.write()
+        Serial2.write("1"); //also Serial2.write()
+        delay(20);
+        Serial2.write("2");
+        delay(20);
+        Serial2.write("3");
         
         
 #ifndef USE_ARDUINO_ETHERNET
     }
 #endif
-    delay(50);
+    delay(200);
 }
