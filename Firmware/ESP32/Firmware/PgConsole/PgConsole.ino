@@ -1,34 +1,3 @@
-/*
- * SimplePgSQL.c - Lightweight PostgreSQL connector for Arduino
- * Copyright (C) Bohdan R. Rau 2016 <ethanak@polip.com>
- *
- * SimplePgSQL is free software; you can redistribute it and/or
- * modify it under the terms of the GNU Lesser General Public
- * License as published by the Free Software Foundation; either
- * version 2.1 of the License, or (at your option) any later version.
- *
- * SimplePgSQL is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- * Lesser General Public License for more details.
- *
- * You should have received a copy of the GNU Lesser General Public
- * License along with SimplePgSQL.  If not, write to:
- *   The Free Software Foundation, Inc.,
- *  51 Franklin Street, Fifth Floor
- *  Boston, MA  02110-1301, USA.
- */
-
-/*
- * Demo program for SimplePgSQL library
- * Simple PostgreSQL console
- * Accepts:
- * - PostgreSQL simple queries
- * - \d - displays table list
- * - \d tablename - list table columns
- * - exit - closes connection
- */
-
 #ifdef ESP8266
 #include <ESP8266WiFi.h>
 #elif defined(ESP32)
@@ -47,20 +16,21 @@
 #endif
 
 #endif
-#include <C:\Users\Nassef\Documents\ECEN_403_404\Industrial_Instrumentation_System\Firmware\ESP32\example\PgConsole\SimplePgSQL.h>
+#include <SimplePgSQL.h>
 
 
 
 IPAddress PGIP(18,223,247,30);        // your PostgreSQL server IP
 
-const char ssid[] = "Miko Circle CS";      //  your network SSID (name)
-const char pass[] = "sunnysheep002";      // your network password
+const char ssid[] = "SSID";      //  your network SSID (name)
+const char pass[] = "password";      // your network password
 
 const char user[] = "ubuntu";       // your database user
 const char password[] = "password";   // your database password
 const char dbname[] = "test_database";         // your database name
 
-const byte bufferSize = 128;
+const byte bufferSize = 60;
+//char serialBuffer[bufferSize] = "INSERT INTO flowrate VALUES ('33', '2022-04-26 12:44:40')";
 char serialBuffer[bufferSize];
 byte bufferIndex = 0;
 char EOL = '\n';
@@ -146,8 +116,9 @@ SELECT n.nspname as \"Schema\",\
 
 int pg_status = 0;
 
-void doPg(void)
+void doPg(char queryInput[])
 {
+    Serial.println("Connecting to database...");
     char *msg;
     int rc;
     if (!pg_status) {
@@ -169,19 +140,22 @@ void doPg(void)
         }
         else if (rc == CONNECTION_OK) {
             pg_status = 2;
-            Serial.println("Enter query");
+            Serial.println("Connection Ok");
         }
         return;
     }
     if (pg_status == 2) {
-        if (!Serial.available()) return;
-        char inbuf[64];
-        int n = Serial.readBytesUntil('\n',inbuf,63);
-        while (n > 0) {
-            if (isspace(inbuf[n-1])) n--;
-            else break;
-        }
-        inbuf[n] = 0;
+        //if (!Serial.available()) return;
+        char *inbuf;
+        inbuf = queryInput;
+//        int n = Serial.readBytesUntil('\n',inbuf,63);
+//        while (n > 0) {
+//            if (isspace(inbuf[n-1])) n--;
+//            else break;
+//        }
+//        inbuf[n] = 0;
+        Serial.print("Sending: ");
+        Serial.println(inbuf);
 
         if (!strcmp(inbuf,"\\d")) {
             if (conn.execute(query_tables, true)) goto error;
@@ -231,7 +205,7 @@ void doPg(void)
                 if (i) Serial.print(" | ");
                 msg = conn.getValue(i);
                 if (!msg) msg=(char *)"NULL";
-                Serial.print(msg);
+                Serial2.write(msg);
             }
             Serial.println();
         }
@@ -245,7 +219,7 @@ void doPg(void)
         }
         if (rc & PG_RSTAT_READY) {
             pg_status = 2;
-            Serial.println("Enter query");
+            Serial.println("Sending Next Message...");
         }
     }
     return;
@@ -268,11 +242,8 @@ void listenForData()
 
     if (recievedData != EOL){
       serialBuffer[bufferIndex++] = recievedData;
-      Serial.println("test3");
       if (bufferIndex >= bufferSize){
         bufferIndex = bufferSize - 1;
-        Serial.println(serialBuffer);
-        Serial.println("test4");
       }
     }
     else
@@ -280,8 +251,8 @@ void listenForData()
       serialBuffer[bufferIndex] = '\0'; //terminate string
       bufferIndex = 0;
       //hasData = true;
+      Serial.print("Input: ");
       Serial.println(serialBuffer);
-      Serial.println("test5");
     }
   }
 }
@@ -293,28 +264,15 @@ void loop()
     checkConnection();
     if (WiFiStatus == WL_CONNECTED) {
 #endif
-        //Serial.println("Reading...");
-        //Serial.println(Serial2.readString());
-        //doPg();
 
         listenForData();
-//        while (Serial2.available()){
-//          char CharSerialRX = (char)Serial2.read();
-//          Serial.print(CharSerialRX);
-//        }
-
-        if (hasData){
-            //doPg();                  
-        }
-        Serial2.write("1"); //also Serial2.write()
-        delay(20);
-        Serial2.write("2");
-        delay(20);
-        Serial2.write("3");
-        
+        doPg(serialBuffer);
+        //Serial.println("Moving on to constraints...");
+        //char constraints[] = "SELECT minflowrate FROM constraints";
+        //doPg(constraints);
         
 #ifndef USE_ARDUINO_ETHERNET
     }
 #endif
-    delay(200);
+    delay(500);
 }
